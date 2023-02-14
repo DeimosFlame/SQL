@@ -138,22 +138,8 @@ INSERT INTO Hotels (HotelName,StarsCount,CreationYear,Adress,City,Country) VALUE
   SELECT AVG(Age) as AvgAge FROM Clients
   SELECT MAX(Age) as MaxAge  FROM Clients
   SELECT MIN(Age) as MaxAge  FROM Clients
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
+  
 SELECT Price, Count(Price) FROM Orders GROUP BY Price
 SELECT DaysCount, Count(DaysCount) FROM Orders GROUP BY DaysCount
 SELECT Age, Count(Age) FROM Clients GROUP BY Age
